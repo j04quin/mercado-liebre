@@ -1,11 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #ebebeb;
     font-family: 'Roboto', sans-serif;
-    /*text-align: center;*/
-    width:100%; 
-    height:100%; 
-    margin:0; 
-    padding:0;
+    width:100%;
+    margin:auto; 
+}
+
+header div.logo {
+    text-align: left;
 }
 
 #logo {
@@ -22,9 +27,6 @@ header {
     background-color: #EAC926;
     width: 100%;
     box-sizing: border-box;
-}
-
-header {
     text-align: center;
 }
 
@@ -43,13 +45,13 @@ header nav ul li a{
 
 div.burger-menu i{
     background-color: #0044AA;
-    border-radius: 4px;
+    border-radius: 5px;
     color: #fff;
-    font-size: 40px;
+    font-size: 30px;
+    line-height: 1.4;
     height: 40px;
     width: 40px;
     margin: 10px 0px 20px 0px;
-    padding: 10px;
 }
 
 header div.input {
@@ -62,18 +64,59 @@ header div.input {
 }
 
 
-main {
-    width: 100vw;
-    margin-bottom: 15px;
+.titular1 {
+    padding-left: 5%;
+}
+
+
+.img-producto {
     text-align: center;
 
 }
 
+.texto-producto {
+    border-top: solid 1px #ebebeb;
+    margin-bottom: 10px;
+    padding: 15px;
+    line-height: 0;
+}
+
+.texto-producto h4 {
+    color: #666;
+    line-height: 0px;
+}
+
+.texto-producto h5 {
+    font-size: 16px;
+    color: #39b54a;
+}
+
+.texto-producto h6 {
+    font-size: 18px;
+}
+
+.shipping {
+    color: #39b54a;
+    border: solid 1px #39b54a;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+main {
+    width: 90vw;
+    margin: auto;
+    line-height: 0;
+
+}
+
 main section article {
-    width: 90%;
-    margin-bottom: 1px;
+    width: 100%;
     padding: 15px 15px 15px 15px;
     background-color: white;
+    margin: auto;
 }
 
 main section h3 {
@@ -81,44 +124,42 @@ main section h3 {
     font-weight: bold;
     text-align: left;
 }
-main section {
-    
-    margin: 15px;
-}
+
 
 footer {
     background-color: white;
     text-align: center;
     box-sizing: border-box;
-    width: 100%;
+    width: 98%;
+    font-size: 18px;
+    padding: 30px 0px;
+    margin: auto;
+}
+
+footer section div.iconopie {
+    color: #0044AA;
+    margin: auto;
+    width: 100px;
+    font-size: 2em;
+}
+
+footer section h4 {
+    font-size: 0.8em;
+    padding-left: 45px;
+    padding-right: 45px;
+    color: #666;
 }
 
 footer section p {
+    font-size: 0.8em;
     color: black;
-}
-
-footer p {
     color: #666;
 }
+
+
 footer section {
     margin-bottom: 10px;
     box-sizing: content-box;
+    text-align: center;
 }
 
-footer section div.footer1{
-    /*text-align: center;*/
-    color: #0044AA;
-    /*width: 2em;*/
-}
-
-h3 {
-    font-size: 24px;
-}
-
-h6 {
-    font-size: 16px;
-}
-
-#precio {
-    font-size: 18px;
-}
