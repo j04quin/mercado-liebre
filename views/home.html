@@ -6,30 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/e32b1dc814.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
-    <header>
-        <div id="logo"><img src = "/images/logo-mercado-liebre.svg"></div>
-        <div class="input"><i class="fa fa-search">Buscar productos, marcas</i></div>
-        <h4><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</h4>
-        
-        <nav>
-            <ul>
+    <header class = "main-header">
+        <div class="main-header-top-bar">
+            <img src = "/images/logo-mercado-liebre.svg" class="logo">
+            <h2 class="input">
+                <i class="fa fa-search">Buscar productos, marcas</i>
+            </h2>
+            <h3 class="copy-header">
+                <i class="fas fa-hand-holding-usd"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+            </h3>    
+        </div>
+
+        <a class="burger-menu">
+            <i class="fa fa-bars burger"></i>
+        </a>
+
+        <nav class = "main-navbar">
+            <ul class="left-navbar">
                 <li><a href="#">Ofertas</a></li>
                 <li><a href="#">Tiendas Oficiales</a></li>
                 <li><a href="#">Vender</a></li>
                 <li><a href="#">Ayuda</a></li>
             </ul>
-            <ul>
-                <li><a href="/register">Creá tu cuenta<i class="far fa-id-card"></i></a></li>
-                <li><a href="/login">Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
-                <li><a href="#">Mis compras<i class="fas fa-shopping-basket"></i></a></li>
+            <ul class="right-navbar">
+                <li><a href="/register">Creá tu cuenta <i class="far fa-id-card"></i></a></li>
+                <li><a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
             </ul>
         </nav>
-        <div class="burger-menu">
-            <i class="fa fa-bars burger"></i>
-        </div>
     </header>
 
     <main>
